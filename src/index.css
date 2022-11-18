@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+/* antd override  */
+    /*  inspect to see input in last node */
+    /* 'input' border style changing on clicked,   */
+input{
+    border-radius: 0% !important;
+    border: 1px solid rgba(128, 128, 128, 0.49) !important;
+height: 40px !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*
+input:focus{
+  
+    box-shadow: none !important;
+    border: 1px solid gray;
+}
+*/
+
+label{
+ font-size: 16px !important;
+ color: black;
+}
+
+.ant-form-item{
+    margin: 15px  !important;
+}
+
+
+
+
+
+
+/* common styling: used in all pages */
+/* 1 rem = 16 pixels */
+
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.normal-text{
+    font-size: 1rem;
+}
+
+.card{
+    box-shadow: 0 0 2px gray;
+    border-radius: 0 !important;
+}
+
+.primary-button{
+    background-color:#005555 !important;
+    border-color: #005555 !important;
+    height: 40px !important;
+    width: 100% !important;
+    color: white !important;
+    font-size: 16px;
+
+}
+
+.anchor{
+    color: black !important;
+    text-decoration: underline;
+    font-size: 16px;   
+}
+
+
+
+
+
+
+
+
+
+/* authentocation pages */
+
+.authentication{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #005555;
+}
+
+.authentication-form{
+    width: 400px;
+}
+
+.authentication .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: orangered;
+    color: white !important;
+    max-width: max-content !important;
+    padding: 7px 15px;
+    margin-left: -30px;
+    border-bottom-left-radius: 10px ;
+
 }
