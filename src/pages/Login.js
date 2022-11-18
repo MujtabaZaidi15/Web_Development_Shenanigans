@@ -38,7 +38,7 @@ function Login() {
     </Button>
 
    <Link to='/register' className='anchor mt-2' >
-   CLICK HERE TO REGISTER!
+   CLICK HERE TO REGISTER BILAL LOVES U!
    </Link>
 
     </Form> 
